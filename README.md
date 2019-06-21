@@ -25,6 +25,12 @@ Run with live reloading in Sketch, need a new sketch doc open. This will put bot
 npm run render
 ```
 
+Run with live image assets server http-serve to load images in sketch
+
+```bash
+npm run http
+```
+
 To clean the `.ts-compiled` directory, you can run:
 
 ```bash
