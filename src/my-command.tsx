@@ -60,7 +60,7 @@ export default (context: any) => {
 
   render(
     [
-      <Desktop name="Galaxy" colors={colorList} >
+      <Desktop name="Desktop" colors={colorList} >
          <Artboard
               name="Mijn Afspeellijst"
               style={{

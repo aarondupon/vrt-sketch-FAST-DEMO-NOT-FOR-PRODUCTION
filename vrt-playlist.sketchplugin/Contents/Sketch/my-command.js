@@ -19486,11 +19486,11 @@ var React = _interopRequireWildcard(_react);
 
 var _reactSketchapp = __webpack_require__(2);
 
-var _Mobile = __webpack_require__(376);
+var _Mobile = __webpack_require__(297);
 
 var _Mobile2 = _interopRequireDefault(_Mobile);
 
-var _Desktop = __webpack_require__(377);
+var _Desktop = __webpack_require__(298);
 
 var _Desktop2 = _interopRequireDefault(_Desktop);
 
@@ -64884,8 +64884,84 @@ _defineProperty(Svg, "defaultProps", {
 });
 
 /***/ }),
-/* 297 */,
-/* 298 */,
+/* 297 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactSketchapp = __webpack_require__(2);
+
+var _DocumentContext = __webpack_require__(30);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+exports['default'] = function (_ref) {
+    var children = _ref.children;
+    return _react2['default'].createElement(
+        _reactSketchapp.Page,
+        null,
+        _react2['default'].createElement(
+            _DocumentContext.DocumentContextProvider,
+            { initialState: { width: 320, height: 320 } },
+            children
+        )
+    );
+};
+
+/***/ }),
+/* 298 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactSketchapp = __webpack_require__(2);
+
+var _DocumentContext = __webpack_require__(30);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var __rest = undefined && undefined.__rest || function (s, e) {
+    var t = {};
+    for (var p in s) {
+        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
+    }return t;
+};
+
+exports['default'] = function (_a) {
+    var children = _a.children,
+        props = __rest(_a, ["children"]);
+    return _react2['default'].createElement(
+        _reactSketchapp.Page,
+        null,
+        _react2['default'].createElement(
+            _DocumentContext.DocumentContextProvider,
+            { initialState: { width: 1366, height: 768 } },
+            children
+        )
+    );
+};
+
+/***/ }),
 /* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -75032,86 +75108,6 @@ var PlaylistPannel = _primitives2['default'].View(_templateObject, function (pro
     return props.width;
 });
 exports['default'] = PlaylistPannel;
-
-/***/ }),
-/* 374 */,
-/* 375 */,
-/* 376 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactSketchapp = __webpack_require__(2);
-
-var _DocumentContext = __webpack_require__(30);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-exports['default'] = function (_ref) {
-    var children = _ref.children;
-    return _react2['default'].createElement(
-        _reactSketchapp.Page,
-        null,
-        _react2['default'].createElement(
-            _DocumentContext.DocumentContextProvider,
-            { initialState: { width: 320, height: 320 } },
-            children
-        )
-    );
-};
-
-/***/ }),
-/* 377 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactSketchapp = __webpack_require__(2);
-
-var _DocumentContext = __webpack_require__(30);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-
-var __rest = undefined && undefined.__rest || function (s, e) {
-    var t = {};
-    for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-    }if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-        if (e.indexOf(p[i]) < 0) t[p[i]] = s[p[i]];
-    }return t;
-};
-
-exports['default'] = function (_a) {
-    var children = _a.children,
-        props = __rest(_a, ["children"]);
-    return _react2['default'].createElement(
-        _reactSketchapp.Page,
-        null,
-        _react2['default'].createElement(
-            _DocumentContext.DocumentContextProvider,
-            { initialState: { width: 1366, height: 768 } },
-            children
-        )
-    );
-};
 
 /***/ })
 /******/ ]);
