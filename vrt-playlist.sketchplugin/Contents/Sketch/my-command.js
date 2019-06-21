@@ -19603,7 +19603,7 @@ exports['default'] = function (context) {
   };
   (0, _render2['default'])([React.createElement(
     _Desktop2['default'],
-    { name: 'Galaxy', colors: colorList },
+    { name: 'Desktop', colors: colorList },
     React.createElement(
       _reactSketchapp.Artboard,
       { name: 'Mijn Afspeellijst', style: {
